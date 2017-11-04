@@ -22,9 +22,3 @@ WORKDIR /data
 
 # Define default command
 CMD ["bash"]
-
-
-
-
-
-
