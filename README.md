@@ -1,12 +1,12 @@
 # PySpark Dockerfile
-This repository contains **Dockerfile** for using [PySpark](https://spark.apache.org/docs/0.9.0/python-programming-guide.html).
+Dockerfile for running [PySpark](https://spark.apache.org/docs/0.9.0/python-programming-guide.html) on Ubuntu base image. Available @ [masroorhasan/pyspark](https://hub.docker.com/r/masroorhasan/pyspark/).
 
 ## Base image
 * [ubuntu:latest](https://github.com/dockerfile/ubuntu) 
 
 ## Installation
-1. Install Docker
-2. Clone this repository
+1. Install Docker.
+2. Pull [masroorhasan/pyspark](https://hub.docker.com/r/masroorhasan/pyspark/).
 
 ## Build
 Build and tag the image.
