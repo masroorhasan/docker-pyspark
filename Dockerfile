@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+LABEL maintainer="masroorh"
 
 # Install OpenJDK 8
 RUN \
@@ -12,9 +13,10 @@ RUN \
     apt-get install -y python python-dev python-pip python-virtualenv && \
     rm -rf /var/lib/apt/lists/*
 
-# Install PySpark
+# Install PySpark and Numpy
 RUN \
-    pip install --upgrade && \
+    pip install --upgrade pip && \
+    pip install numpy && \
     pip install pyspark
 
 # Define working directory
